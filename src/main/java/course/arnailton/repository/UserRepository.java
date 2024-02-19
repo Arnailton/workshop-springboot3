@@ -1,8 +1,8 @@
-package com.arnailton.course.arnailton.repository;
+package course.arnailton.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.arnailton.course.arnailton.entities.User;
+import course.arnailton.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 

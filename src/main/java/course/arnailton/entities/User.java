@@ -1,4 +1,4 @@
-package com.arnailton.course.arnailton.entities;
+package course.arnailton.entities;
 
 import java.io.Serializable;
 import java.util.Objects;

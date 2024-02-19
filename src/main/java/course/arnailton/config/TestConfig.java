@@ -1,4 +1,4 @@
-package com.arnailton.course.arnailton.config;
+package course.arnailton.config;
 
 import java.util.Arrays;
 
@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.arnailton.course.arnailton.entities.User;
-import com.arnailton.course.arnailton.repository.UserRepository;
+import course.arnailton.entities.User;
+import course.arnailton.repository.UserRepository;
 
 @Configuration
 @Profile("test")
